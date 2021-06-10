@@ -4,7 +4,6 @@
 		<view>
 			<text class="title">{{title}}</text>
 		</view>
-		<button @click="open">执行云函数</button>
 	</view>
 </template>
 
@@ -19,21 +18,7 @@
 
 		},
 		methods: {
-			open () {
-        wx.cloud.callFunction({
-          // 云函数名称
-          name: 'add',
-          // 传给云函数的参数
-          data: {
-            a: 1,
-            b: 2,
-          },
-        })
-        .then(res => {
-          console.log(res.result) // 3
-        })
-        .catch(console.error)
-			}
+
 		}
 	}
 </script>
