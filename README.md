@@ -16,12 +16,6 @@ npm install
   ```
   npm run dev:mp-weixin
   ```
-## 预览
-- 首页
-![image](https://user-images.githubusercontent.com/62100025/121493906-d52e5800-ca0a-11eb-8e40-75edd7c62da7.png)
-- 点击登录后，可以点击头像进入个人信息界面
-![image](https://user-images.githubusercontent.com/62100025/121493962-e24b4700-ca0a-11eb-9a1b-b29fb9887f04.png)
-
 
 ## 更多
 本项目旨在熟悉uniapp的开发，其中包括了云函数的使用和vuex的使用，不是一个完整的项目。有兴趣的可以对他进行更多的开发。
