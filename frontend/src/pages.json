@@ -4,47 +4,26 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "网易云音乐"
 			}
 		},
 		{
 			"path": "pages/about/about",
 			"style": {
+				"navigationBarTitleText": "网易云音乐"
 			}
 		},
 		{
 			"path": "pages/my/my",
 			"style": {
+				"navigationBarTitleText": "网易云音乐"
 			}
 		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
+		"navigationBarTitleText": "网易云音乐",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
-	},
-	"tabBar": {
-		"color": "#666",
-		"selectedColor": "#ff5a5f",
-		"borderStyle": "black",
-		"list": [
-			{
-				"pagePath": "pages/index/index",
-				"text": "首页",
-				"iconPath": "static/home.png",
-				"selectedIconPath": "static/home-active.png"
-			},{
-				"pagePath": "pages/about/about",
-				"text": "关于",
-				"iconPath": "static/about.png",
-				"selectedIconPath": "static/about-active.png"
-			},{
-				"pagePath": "pages/my/my",
-				"text": "我的",
-				"iconPath": "static/my.png",
-				"selectedIconPath": "static/my-active.png"
-			}
-		]
 	}
 }
